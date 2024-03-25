@@ -36,9 +36,10 @@ const CompanyDeatails = () => {
   <h2 className='job_details-heading'>More Details About the job</h2>
  
   
-  {}
+
   
    <div className='company-logo'><img src={company.img} alt='not-loaded' className='imgsty'/></div>
+   <div className='backgroundstyle'>
    <div className='styl1'><h2>Job Role:</h2></div>
    <div className='styl2'>{company.jobrole}</div>
   <div className='styl1'><h2>Description:</h2></div>
@@ -88,7 +89,7 @@ const CompanyDeatails = () => {
 
   
   </div>
-                 
+  </div>            
     </>)
 }
 

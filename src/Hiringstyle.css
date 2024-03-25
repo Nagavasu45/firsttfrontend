@@ -6,11 +6,12 @@
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom:15px;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-radius: 10px;
     display: flex;
     flex-wrap: nowrap;
     position: relative;
+    background-image: linear-gradient(to left,white, rgb(172, 172, 250));
 }
 .company-exp{
     position: absolute;
@@ -30,17 +31,21 @@
 }
 .company-description{
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    
 }
 .company-skills{
-    width:400px;
+    /* width:400px; */
     margin: auto;
     padding: 20px;
 }
+.jobrolestyle{
+    color:rgb(216, 139, 139);
+}
 .imgsty{
-    height:150px;
-    width:150px;
-    border-radius: 75px;
+    height:100px;
+    width:100px;
+    border-radius: 50px;
 }
 .imgsty:hover{
     border:2px dashed green;
@@ -54,11 +59,10 @@
     background-color: blue;
     color:white
 }
-.bodybgcolor{
-    width:100%;
-    height:100%;
-    margin-bottom: 0px;
-    background-color:rgb(227, 227, 227);
+
+.skillsstyle{
+    color:blue;
+    font-size: 20px;
 }
 .bgimg{
     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_FuZGtmJhjTyBwBkOgarJG-YW_KNarIsX4g&usqp=CAU");
@@ -78,6 +82,8 @@
 .styl1{
     text-align: left;
     margin-left: 2rem;
+   color:rgb(240, 183, 98);
+
     
 }
 .styl2{
@@ -89,6 +95,7 @@
     border: 1px solid grey;
     border-radius: 20px;
     font-weight: 600;
+    background-color: aliceblue;
 }
 .styl2:hover{
     border: 1px dashed grey;
@@ -102,6 +109,7 @@
     border: 1px solid grey;
     border-radius: 20px;
     font-weight: 600;
+    background-color: aliceblue;
 }
 .styl4:hover{
     border: 2px dashed grey;
@@ -116,9 +124,16 @@
     border: 2px dashed grey;
     border-radius: 20px;
     margin-bottom: 50px;
+    background-color: aliceblue;
 }
 .styl5{
     display: flex;
     justify-content:left;
     flex-wrap: nowrap;
+}
+.backgroundstyle{
+    background-color: rgb(231, 231, 231);
+    margin: 15px;
+    border-radius: 20px;
+    padding-bottom: 50px;
 }
